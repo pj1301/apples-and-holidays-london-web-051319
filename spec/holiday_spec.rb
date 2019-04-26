@@ -29,7 +29,7 @@ describe "holiday_supplies_hash" do
   end
 
   # Question 2
-  # Write a method that adds a supply to all Winter holidays
+  # Write a merspecthod that adds a supply to all Winter holidays
   describe "#add_supply_to_winter_holidays" do
     it "iterates through winter holidays adds a supply to each one" do
       add_supply_to_winter_holidays(holiday_supplies, "Balloons")
@@ -37,7 +37,7 @@ describe "holiday_supplies_hash" do
       expect(holiday_supplies[:winter][:new_years]).to include("Balloons")
     end
   end
-
+  
   # Question 3
   # Write a method that adds a supply to Memorial Day
   describe "#add_supply_to_memorial_day" do
